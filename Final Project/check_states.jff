@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 7.1.--><structure>
+	<type>turingbb</type>
+	<automaton>
+		<!--The list of states.-->
+		<block id="0" name="Check_subrules_states_1">
+			<tag>Machine0</tag>
+			<x>123.0</x>
+			<y>196.0</y>
+			<initial/>
+		</block>
+		<block id="1" name="Check_subrules_states_2">
+			<tag>Machine1</tag>
+			<x>390.0</x>
+			<y>198.0</y>
+		</block>
+		<!--The list of transitions.-->
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read>C</read>
+			<write>~</write>
+			<move>R</move>
+		</transition>
+		<!--The list of automata-->
+		<Machine0/>
+		<Machine1/>
+	</automaton>
+</structure>
